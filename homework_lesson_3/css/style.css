@@ -1,0 +1,53 @@
+  @import url(reset.css); 
+
+* {
+	color: red;
+} 
+
+span {
+	color: aqua;
+}
+
+h1,h3, h2	{
+	color: rgb(0, 255, 47);
+}
+
+section p {
+color: rgb(235, 33, 177);
+}
+
+.greenone {
+	color: green;
+}
+
+blockquote {
+	color: blue;
+}
+
+td {
+	color: aqua;
+}
+
+#personal-life ~ p {
+	color: black;
+}
+
+ul li, ul a {
+	color: rgb(114, 116, 193);
+}
+
+
+ol > a, li.darkblue, a.darkblue {
+	color: rgb(16, 20, 146);
+}
+
+.grey.text {
+	color: yellow;
+}
+.badcolor + p {
+	color: brown;
+}
+
+[class*=-yellow] {
+	color: yellowgreen;
+}
