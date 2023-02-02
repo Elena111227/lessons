@@ -1,4 +1,4 @@
-  @import url(reset.css); 
+  /* @import url(reset.css);  */
 
 * {
 	color: red;
@@ -32,14 +32,14 @@ td {
 	color: black;
 }
 
-ul li, ul a {
+ ul a, ul li {
 	color: rgb(114, 116, 193);
 }
 
 
-ol > a, li.darkblue, a.darkblue {
+li.darkblue, .darkblue > a {
 	color: rgb(16, 20, 146);
-}
+} 
 
 .grey.text {
 	color: yellow;
