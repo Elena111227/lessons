@@ -1,0 +1,73 @@
+@import url("reset.css");
+
+body {
+  font-family: 'Poppins', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #6C757D;  
+  line-height: 1.78;  /* В Фигме 25px, но лучше дробь, чтоб потом унаследовалась 25px/fsize14 */
+  background: #F8F9FA;;
+}
+
+/* Поля для удобства, т.к. верстаем не целую страницу */
+
+.article {
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+/* Общий Ограничивающий контейнер статьи!*/
+
+[class*="-container"] {
+  margin: 0 auto;
+  padding-left: 15px; 
+  padding-right: 15px; /*чтобы при уменьшении экрана было отстувы от вьопорта */  
+  max-width: 1270px; /*1240+15+15 из-за падингов */
+}
+
+.text-container {
+  margin: 0 auto 80px; /*  выиграет(cхлопнет) 80px margin-botton т.к. оно больше чем margin-botton у p */
+  max-width: 816px;
+}
+
+h1, h2 {  
+  font-size: 25px;
+  line-height: 1.6; /* В Фигме 40px, но лучше дробь, чтоб потом унаследовалась 40px/fsize25 */
+  color: #212529;
+  margin-bottom: 40px;     
+  font-weight: 700;
+} 
+
+.title  {
+  max-width: 400px;
+}
+
+.second-title {
+  max-width: 605px; /*ограничение если админку заказчик всунет много текса без <br><*/
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%;/* от родителя в котором он сидит */
+  } 
+
+.images, .image {
+  margin-bottom: 80px;
+}  
+
+.images {
+  text-align: center;
+  font-size: 0; /*убрали фантомный отступ у картинок*/
+}
+
+.image-1 {
+  margin-right: 30px;
+  
+}
+
+
+
