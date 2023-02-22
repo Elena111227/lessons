@@ -60,7 +60,6 @@ img {
 }  
 
 .images {
-  text-align: center;
   font-size: 0; /*убрали фантомный отступ у картинок*/
 }
 
