@@ -13,8 +13,7 @@ body {
 }
 
 /* Поля для удобства, т.к. верстаем не целую страницу */
-.article {
-  margin-top: 15px;
+.article {  
   margin-bottom: 60px;
 }
 
@@ -57,6 +56,7 @@ img {
 
 .images, .image {
   margin-bottom: 80px;
+  border-radius: 5px;
 }  
 
 .images {
