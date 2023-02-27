@@ -50,13 +50,17 @@ p {
   margin-bottom: 30px;
 }
 
+.image-1, .image-2, .image {
+  border-radius: 5px;
+}
+
 img {
   max-width: 100%;/* от родителя в котором он сидит */
   } 
 
 .images, .image {
   margin-bottom: 80px;
-  border-radius: 5px;
+  
   
 }  
 
@@ -203,7 +207,3 @@ Styles of Testing of CSS-properties
 .opacity-img:hover {
   opacity: 0.1;
 }
-
-
-
-
