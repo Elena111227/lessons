@@ -1,0 +1,112 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600,700&display=swap");
+
+body {
+	font-family: 'Inter', "Arial", sans-serif;
+	padding: 50px;
+	background: rgb(148,145,194);
+	background: linear-gradient(90deg, rgba(148,145,194,0.5074404761904762) 0%, rgba(217,134,212,0.4990371148459384) 35%, rgba(69,105,170,0.47102591036414565) 100%);
+}
+
+h1 {
+	font-size: 60px;
+	color: rgb(77, 24, 126);
+	font-weight: 700;	
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color: rgb(77, 24, 126);
+	font-weight: 600;	
+	margin-bottom: 40px;
+	margin-top: 40px;
+	
+}
+
+p {
+	font-size: 30px;
+	color: rgb(45, 14, 73);
+	margin-bottom: 30px;
+}
+
+.content-img {
+	text-align: center;
+}
+.content-img img {
+	border-radius: 15px;
+}
+.content-img img {
+	margin: 10px;
+}
+
+.big {
+	width: 100%;
+}
+
+.content-img img:not(img.big) {
+	width: 165px;
+	vertical-align: middle;
+	
+	
+}
+.icon {
+	background-color: rgba(65, 18, 70, 0.233);
+	border: 1px solid purple;
+	border-radius: 15px;
+	text-align: center;
+	
+}
+.icon img {
+	border: 1px solid rgba(128, 0, 128, 0.171);
+	border-radius: 15px;
+	min-width: 50px;
+	background-color: rgba(158, 46, 170, 0.062);
+	margin: 10px;
+	padding: 10px;
+}
+.elements-design {
+	background: url(../img/grafic_dising/Group\ 1000004062.png) 50% 50%/100% 100% no-repeat;
+	border-radius: 15px;
+	padding: 20px;
+	text-align: center;
+}
+
+.elements-design > div.center {	
+	max-width: 1270px;
+	font-size: 0;
+	margin: 0 auto;
+	
+}  
+.elements-design > div.center div {
+	width: 200px;
+	height: 200px;	
+	border: 2px solid rgb(229, 221, 236);
+	margin: 5px;
+	
+	display: inline-block;	
+	
+	
+} 
+
+.lines {
+	background: url(../img/icon/Group1000001858.svg) 50% 50%/ contain no-repeat;
+}
+.dots {
+	background: url(../img/icon/DottedShape\(1\).svg) 50% 50%/ contain no-repeat;
+}
+.bigdots {
+	background: url(../img/icon/DottedShape.svg) 50% 50%/ contain no-repeat;
+}
+.tran {
+	background: url(../img/icon/shape.svg) 50% 50%/ contain no-repeat;
+}
+.green {
+	background: url(../img/icon/Oval.svg) 50% 50%/ contain no-repeat;
+}
+.blue {
+	background: url(../img/icon/Oval\(1\).svg) 50% 50%/ contain no-repeat;
+}
+
+
